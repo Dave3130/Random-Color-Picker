@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Button} from './Button';
 
 class Random extends React.Component {
@@ -49,7 +48,7 @@ class Random extends React.Component {
   convertSingleCode(color){
         let hexCode = color.toString(16);
 
-        return (hexCode.length == 1) ? ('0' + hexCode) : hexCode;
+        return (hexCode.length === 1) ? ('0' + hexCode) : hexCode;
     }
 rgbToHex(ary){
     return 'Hex: #' + this.convertSingleCode(ary[0]) + this.convertSingleCode(ary[1]) + this.convertSingleCode(ary[2]);  
