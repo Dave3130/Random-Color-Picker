@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+
+html, body {
+  
+  height: 92%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#title{
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+h1, h2 {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+button {
+  border-radius: 18px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.light-button {
+  background-color: rgba(255,255,255,0.5);
+  color: rgb(0,0,0);
+}
+
+.dark-button {
+  background-color: rgba(0,0,0,0.5);
+  color: rgb(255,255,255);
 }
