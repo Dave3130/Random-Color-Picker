@@ -2,7 +2,7 @@
   "name": "random-color-picker",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://github.com/Dave3130/Random-Color-Picker",
+   "homepage": "https://dave3130.github.io/Random-Color-Picker/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
